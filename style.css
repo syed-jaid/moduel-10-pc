@@ -1,0 +1,62 @@
+/* main display style */
+body{
+    background-color: rgb(231, 231, 231);
+}
+.contant{
+   width: 980px;
+ margin: auto;
+ background-color: rgb(255, 255, 255);
+}
+/* produects displays */
+.produects{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-row-gap: 45px;
+   padding-top: 50px;
+   margin-left: 60px;
+   padding-bottom: 50px;
+
+}
+
+/*-----------------
+ section thamnal
+ ----------------- */
+ .produect{
+     width: 220px;
+     box-shadow: 2px 2px 2px  rgb(197, 232, 250);
+     height: 320px;
+     padding-top: 15px;
+     padding-left: 8px;
+     background-color: rgb(247, 244, 244);
+     border-radius: 15px;
+    
+ }
+.produect img{
+    width: 200px;
+    height: 200px;
+}
+.name{
+padding-left: 30px;
+margin-top: 0%;
+margin-bottom:0% ;
+}
+.name-qulity{
+    padding-left: 50px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 0%;
+}
+.produect-rating{
+padding-left: 30px;
+}
+.fa-star.fild{
+    color: gold;
+}
+.fa-star.not-fild{
+    color: rgb(192, 191, 191);
+}
+.produect-price{
+padding-left: 50px;
+margin-top: 0%;
+color: rgb(3, 5, 143);
+}
+
